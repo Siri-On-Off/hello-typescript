@@ -8,5 +8,13 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "repository": {
+    "type": "module",
+    "url": "git+https://github.com/Siri-On-Off/hello-typescript.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Siri-On-Off/hello-typescript/issues"
+  },
+  "homepage": "https://github.com/Siri-On-Off/hello-typescript#readme",
   "description": ""
 }
