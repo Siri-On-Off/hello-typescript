@@ -1,0 +1,332 @@
+    1  cat ~/.ssh/id_ed25519.pub
+    2  ssh-keygen
+    3  ssh user@91.92.153.8
+    4  ssh user@91.92.152.154
+    5  scp -r user@91.92.152.154:foodstock-db foodstock-db
+    6  scp -r user@91.92.152.154:leagues-db leagues-db
+    7  ssh user@91.92.153.146
+    8  ssh user@85.217.160.133
+    9  ssh user@85.217.160.133
+   10  scp user@85.217.160.133:.bash_history minio-history.txt
+   11  ssh user@85.217.160.133
+   12  git config --global user.name "Sirion Taiyasakda"
+   13  git config --global user.email Sirion_Taiyasakda@sluz.ch
+   14  cat plain.txt
+   15  gpg -c file.txt
+   16  gpg -c plain.txt
+   17  gpg file.txt.gpg
+   18  gpg -c plain.txt
+   19  cat plain.txt.gpg
+   20  cat plain.txt
+   21  openssl aes-256-cbc -in plain.txt -out plain.enc
+   22  cd desktop
+   23  cd /tmp/
+   24  node --version
+   25  git --version
+   26  git config --global user.email sirion_taiyasakda@sluz.ch
+   27  git config --global user.name Sirion Taiyasakda
+   28  node --version
+   29  npm --version
+   30  tsc --version
+   31  npm install --global typescript
+   32  tsc --version
+   33  git config list
+   34  git config --global user.name
+   35  git config --global "Sirion Taiyasakda"
+   36  git config --global 'Sirion Taiyasakda'
+   37  git config --global user.name "Sirion Taiyasakda"
+   38  git config --global user.name 'Sirion Taiyasakda'
+   39  git config --global user.name
+   40  git config --global --replace-all user.name "Sirion Taiyasakda"
+   41  git config --global user.name
+   42  ls -a
+   43  cat .gitconfig 
+   44  mongosh
+   45  mongosh "mongodb+srv://m165musiccluster.masg8.mongodb.net/" --apiVersion 1 --username sirion
+   46  port ps
+   47  [200~5. Zusatzaufgabe
+   48  cleasr
+   49  clear
+   50   mongosh "mongodb+srv://m165musiccluster.masg8.mongodb.net/" --apiVersion 1 --username sirion
+   51  grep "port" /etc/mongod.conf
+   52  docker exec -it mongodb ps aux | grep mongod
+   53  cat ~/.ssh/id_ed25519.pub
+   54  cd..
+   55  cd ..
+   56  cd ..
+   57  cd ~
+   58  cd /Schule
+   59  cd schule
+   60  cd Users
+   61  cd schule
+   62  cd ..
+   63  cd schule
+   64  mkdir projekt
+   65  mkdir project
+   66  cd project
+   67  git init
+   68  cd ..
+   69  cd git-exercises/
+   70  git clone git@github.com:m426-2025/hello-git.git
+   71  git clone git@github.com:m426-2025/hello-git.git m426-hello-git
+   72  git status
+   73  git status --short
+   74  cd m426-hello-git/
+   75  git status --short
+   76  touch foo.txt
+   77  echo "foo" > foo.txt 
+   78  touch bat.txt
+   79  mv bat.txt bar.txt
+   80  echo "bar" > bar.txt 
+   81  touch qux.txt
+   82  echo "qux" > qux.txt 
+   83  git status --short
+   84  git status --short > aufgabe-3.out
+   85  cat aufgabe-3.out 
+   86  git add foo.txt bar.txt 
+   87  git status --short
+   88  git status --short > aufgabe-4.out
+   89  cat aufgabe-4.out 
+   90  cat aufgabe-3.out 
+   91  echo "aufgabe-4.out hat vor den Dateinamen anstatt ?? jetzt ein A beim bar.txt und foo.txt. Es hat ausserdem die Datei aufgabe-4.out mit ?? davor. Bei aufgabe-3.out ist es nicht so." > aufgabe-3-4-diff.txt
+   92  cat aufgabe-3-4-diff.txt 
+   93  touch foobar.exe
+   94  echo "*.exe" > siri.gitignore
+   95  cat siri.gitignore 
+   96  echo "" > siri.gitignore 
+   97  status --short
+   98  git status --short
+   99  echo "*.exe" > siri.gitignore
+  100  git status --short
+  101  echo "*.exe" > .gitignore
+  102  git status --short
+  103  rm siri.gitignore 
+  104  git status --short
+  105  git diff
+  106  git diff --cached
+  107  git add .gitignore 
+  108  git diff --cached
+  109  git diff
+  110  git diff --cached
+  111  git commit
+  112  git status --short
+  113  add aufgabe-3-4-diff.txt aufgabe-3.out aufgabe-4.out qux.txt 
+  114  git add aufgabe-3-4-diff.txt aufgabe-3.out aufgabe-4.out qux.txt 
+  115  git status --short
+  116  git commit -m "die verbleibenden Dateien hinzufuegen"
+  117  git status --short
+  118  cd ..
+  119  echo "# git-exercises" >> README.md
+  120  git init
+  121  git add README.md
+  122  git commit -m "first commit"
+  123  git branch -M main
+  124  git remote add origin https://github.com/Siri-On-Off/git-exercises.git
+  125  git push -u origin main
+  126  git branch
+  127  git push main
+  128  git push origin main
+  129  --apiVersion 1 --username siri
+  130  mongosh
+  131  docker pull alpine
+  132  docker pull node:alpine
+  133  docker pull node:alpine
+  134  docker
+  135  docker pull node:alpine
+  136  docker pull node:alpine
+  137  docker images
+  138  sudo apt-get install curl mosquitto-clients
+  139  sudo apt-get install curl mosquitto-clients
+  140  mosquitto_pub -d -q 1 -h demo.thingsboard.io -p 1883 -t v1/devices/me/telemetry -i "4rm79654tuasmx10nm08" -u "p2nvmfk9mvw49ndcms8z" -P "5u4n91qihlv4wjgx4trt" -m "{temperature:25}"
+  141  sudo apt-get install curl mosquitto-clients
+  142  bash sudo apt-get install curl mosquitto-clients
+  143  sudo cat /var/log/syslog | grep "Error" > error.log
+  144  git add *
+  145  cd git-exercises/m426-hello-git/
+  146  git add datei.txt 
+  147  git status
+  148  git reset
+  149  git status
+  150  git checkout
+  151  git status
+  152  git checkout -- datei.txt
+  153  clear
+  154  git add datei.txt
+  155  git status
+  156  gut reset
+  157  git reset
+  158  git-exercises/m426-hello-git
+  159  cd git-exercises/m426-hello-git/
+  160  rm datei1.txt 
+  161  git status
+  162  git rm datei2.txt 
+  163  git status
+  164  git rm datei2.txt 
+  165  git rm datei_git.txt 
+  166  git status
+  167  rm datei_git.txt 
+  168  git status
+  169  rm deleteWithGitRM.txt 
+  170  git status
+  171  cd git-exercises/m426-hello-git/
+  172  echo "1. änderung" > datei.txt
+  173  git add datei.txt 
+  174  git status
+  175  git reset
+  176  git status
+  177  git checkout
+  178  git status
+  179  echo "2. änderung" > datei.txt
+  180  git reset --hard
+  181  git status
+  182  history > befehls_history.txt
+  183  rm deleteWithRM.txt 
+  184  git status
+  185  git rm deleteWithGitRM.txt 
+  186  git status
+  187  git restore deleteWithRM.txt
+  188  git restore deleteWithGitRM.txt 
+  189  git status
+  190  git checkout -- deleteWithGitRM.txt
+  191  git restore deleteWithRM.txt
+  192  git restore --staged deleteWithRM.txt
+  193  git restore deleteWithGitRM.txt
+  194  git restore deleteWithRM.txt
+  195  git status
+  196  rm deleteWithRM.txt
+  197  git status
+  198  git restore deleteWithGitRM.txt 
+  199  git status
+  200  git restore deleteWithRM.txt 
+  201  git status
+  202  git restore --staged deleteWithGitRM.txt 
+  203  git status
+  204  git reset
+  205  git status
+  206  git reset --hard
+  207  git status
+  208  cd git-exercises/m426-hello-git/
+  209  rm rm.txt 
+  210  git status 
+  211  git rm gitrm.txt 
+  212  git add rm.txt 
+  213  git add gitrm.txt 
+  214  git status 
+  215  rm rm.txt 
+  216  git status
+  217  git rm gitrm.txt 
+  218  git status
+  219  git rm --cached gitrm.txt
+  220  git status
+  221  git rm -f gitrm.txt
+  222  rm gitrm.txt
+  223  git status
+  224  git restore rm.txt 
+  225  git status
+  226  git restore --staged rm.txt 
+  227  git status
+  228  git restore gitrm.txt
+  229  git rm rm.txt 
+  230  git add rm.txt 
+  231  git status
+  232  git rm rm.txt 
+  233  git restore rm.txt 
+  234  git status
+  235  echo "test" > gitrm.txt
+  236  git rm gitrm.txt 
+  237  git add gitrm.txt 
+  238  git rm gitrm.txt $
+  239  git rm gitrm.txt
+  240  git restore gitrm.txt 
+  241  git status
+  242  git rm gitrm.txt 
+  243  git status
+  244  git rm gitrm.txt 
+  245  git status
+  246  git restore gitrm.txt 
+  247  git status
+  248  git rm gitrm.txt 
+  249  git status
+  250  git restore gitrm.txt 
+  251  git status
+  252  git restore --staged gitrm.txt 
+  253  git status
+  254  git restore gitrm.txt 
+  255  git status
+  256  clear
+  257  git log -n 5 --stat -p: Die letzten 5 Commits anzeigen sowie die Änderungen.
+  258  git log -n 5 --stat -p
+  259  cd git-exercises/m426-hello-git/
+  260  git add datei.txt 
+  261  git status 
+  262  git reset
+  263  git status
+  264  git checkout
+  265  git status
+  266  echo "eine neue änderung" > datei.txt 
+  267  git status 
+  268  git add datei.txt 
+  269  reset --hard
+  270  git status
+  271  git reset --hard
+  272  git status
+  273  git log --graph --oneline
+  274  [200~
+  275  git log --author="Siri"
+  276  git --version
+  277  node --version
+  278  npm install --global typescript
+  279  tsc --version
+  280  echo "verändert" >> datei.txt
+  281  git add datei.txt 
+  282  cd git-exercises
+  283  git status
+  284  cd m426-hello-git/
+  285  git add datei.txt 
+  286  node --version
+  287  tsc --version
+  288  node --version
+  289  tsc --version
+  290  cd C
+  291  cd..
+  292  cd ..
+  293  cd ..
+  294  cd /Users
+  295  cd users
+  296  cd schule
+  297  cd git-exercises
+  298  cd hello-typescript/
+  299  git init
+  300  $ git add package.json src dist
+  301  $ git commit -m 'initial commit: project setup'
+  302  git add package.json src dist
+  303  git add package.json src dist
+  304  touch package.json
+  305  git add package.json src dist
+  306  mkdir src dist
+  307  git src dist
+  308  clear
+  309  node --version
+  310  tsc --version
+  311  cd ..
+  312  cd schule/git-exercises/hello-typescript/
+  313  node --version
+  314  tsc --version
+  315  cd ..
+  316  cd schule/git-exercises
+  317  mkdir hello-typescript
+  318  cd hello-typescript/
+  319  npm init --yes
+  320  mkdir src dist
+  321  touch scr/.keep dist/.keep
+  322  touch src/.keep dist/.keep
+  323  git init
+  324  git add package.json src dist
+  325  git commit -m 'initial commit: project setup'
+  326  echo "dist/**/*.js" > .gitignore
+  327  git add .gitignore 
+  328  git commit -m 'ignore compiled JavaScript code'
+  329  git remote add origin https://github.com/Siri-On-Off/hello-typescript.git
+  330  git branch -M main
+  331  git push -u origin main
+  332  history > gitbash_history.txt
