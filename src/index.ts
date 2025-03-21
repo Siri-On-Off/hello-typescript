@@ -1,3 +1,3 @@
-let lang: string = "TypeScript";
-let greeting: string = `Hello, ${lang}!`;
+const lang: string = "TypeScript";
+const greeting: string = `Hello, ${lang}!`;
 console.log(greeting);
